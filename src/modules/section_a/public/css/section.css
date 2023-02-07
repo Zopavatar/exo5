@@ -1,0 +1,54 @@
+h1 {
+    color: hsl(178, 100%, 50%)
+}
+
+p{
+    color: hsl(215, 51%, 70%);
+}
+
+a{
+    text-decoration: none;
+    color: hsl(178, 100%, 50%)
+}
+
+section{
+    width: 40vh;
+    border-bottom: solid 0.5px;
+    color: hsl(215, 51%, 70%); 
+    padding-bottom: 10px
+}
+
+section>div{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+section>div>div:first-of-type>p{
+    color: hsl(178, 100%, 50%); 
+}
+
+section>div>div{
+    display: flex;
+    align-items: center;
+}
+
+#icone_a{
+    background-image: url(../img/icon-ethereum.svg);
+    height: 15px;
+    width: 15px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin: 2px
+}
+
+#icone_b{
+    background-image: url(../img/icon-clock.svg);
+    height: 15px;
+    width: 15px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin: 4px
+}

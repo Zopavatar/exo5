@@ -1,0 +1,32 @@
+#image{
+    height: 40vh;
+    width: 40vh;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+
+#icone {
+    background: none;
+    height: 100%;
+    width: 100%;
+    border: none
+}
+
+#icone:hover{
+    cursor:pointer
+}
+
+#el_icone {
+    background-image: url(../img/icon-view.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20%; 
+    height: 100%;
+    width: 100%;
+}
